@@ -26,10 +26,28 @@ iOS essential tools to skyrocket your development. one command to install.
 - ​
 
 
-
 ## 源代码控制
 
+- [**Git**](http://git-scm.com/)：分布式版本控制系统和源码管理系统，其优点是：快和简单易用。对于新手来说，可在此查看[免费电子书籍](http://git-scm.com/book)。
+- [**GitHub**](https://github.com/)：声望日盛的资源分享之地。
+- [**BitBucket**](https://bitbucket.org/)：GitHub的替代选择。可以免费建立私有仓库
+- ​
+
+## 包管理
+
 - [CocoaPods](http://cocoapods.org/) –  管理iOS项目的重要工具。允许你轻松快速地将第三方库集成到你的应用中。它是通过创建另一个静态库工程，然后自动链接到你的工程来实现的。有成千上万个可用的pod，可以轻松地为你的项目增加那些不属于你（或者私有）的第三方库支持。我在我的每个项目里都用了CocoaPods。
+- [**HomeBrew**](http://brew.sh/)：OS X上非常出色的包管理工具
+- ​
+
+
+## XCode
+
+- [**查看项目的’TODO’,’FIXME’等**](https://github.com/trawor/XToDo)
+
+- **XCode颜色显示插件[ColorSense](https://github.com/omz/ColorSense-for-Xcode)**
+
+  代码里的那些冷冰冰的颜色数值，到底时什么颜色？如果你经常遇到这个问题，每每不得不运行下模拟器去看看，那么这个插件绝对不容错过。更彪悍的是你甚至可以点击显示的颜色面板，直接通过系统的ColorPicker来自动生成对应颜色代码，再也不用做各种颜色代码转换了！
+
 
 
 
