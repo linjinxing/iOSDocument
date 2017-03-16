@@ -9,6 +9,11 @@ iOS essential tools to skyrocket your development. one command to install.
 - [**Xcode Snippets**](https://github.com/mattt/Xcode-Snippets)：这视乎是最明显的一个，但却可以减少大量开发时间。创建起来像[drag-and-drop](http://nshipster.com/xcode-snippets/)那么简单，这里有很多优秀的示例（[XcodeCodeSnippets](https://github.com/brennanMKE/XcodeCodeSnippets)、[CodeSnippets](https://github.com/jaydee3/CodeSnippets) ）。
 - [**快速Add #import**](https://github.com/markohlebar/Peckham) 不用自己写import，当引用一个类时，就会自动import头文件
 - [**Auto-Importer-for-Xcode**](https://github.com/citrusbyte/Auto-Importer-for-Xcode) 不用自己写import，当引用一个类时，就会自动import头文件
+- [SCXcodeSwitchExpander](https://github.com/stefanceriu/SCXcodeSwitchExpander) 是一个可以帮你展开 switch 语句的插件，还会自动帮你插入 case 语句。
+- [KSImageNamed-Xcode](https://github.com/ksuther/KSImageNamed-Xcode) 提供了图片名称自动补全功能的插件。
+- [Lin](https://github.com/questbeat/Lin)  这个插件提供了 NSLocalizedString 的自动补全插件。
+
+
 
 
 
@@ -19,7 +24,6 @@ iOS essential tools to skyrocket your development. one command to install.
 - [Slender](http://dragonforged.com/slender/) ($)  一个很棒的应用，可以分析你的应用，找出各种问题，比如缺少视网膜屏的图片，没用到的图- 片，能压缩的图片。使用Slender去除掉那些没用的图片，可以为你的iPhone应用节省好多空间。
 - [Apple如何知道你用私有API](http://www.csdn.net/article/2012-02-10/311678)
 - [私有API扫描工具appScanner](https://github.com/ChimpStudios/App-Scanner) 
-- ​
 
 
 
@@ -49,6 +53,24 @@ iOS essential tools to skyrocket your development. one command to install.
 
 - [**查看项目的’TODO’,’FIXME’等**](https://github.com/trawor/XToDo)
 
+- [Backlight-for-XCode](https://github.com/limejelly/Backlight-for-XCode) 高亮当前编辑的行。
+
+- [XCActionBar](https://github.com/pdcgomes/XCActionBar) - Xcode 的 Alfred。
+
+- [AdjustFontSize](https://github.com/zats/AdjustFontSize-Xcode-Plugin) 使用 ⌘ + / ⌘ - 快捷键调整字体大小。
+
+- [SCXcodeMiniMap](https://github.com/stefanceriu/SCXcodeMiniMap) - SCXcodeMiniMap 为 Xcode 添加了代码地图功能
+
+- [BBUDebuggerTuckAway](https://github.com/neonichu/BBUDebuggerTuckAway)   当你开始编辑的时候帮你隐藏调试器栏的 Xcode 插件。
+
+- [XAlign](https://github.com/qfish/XAlign)  一个 Xcode 代码自动对齐插件，它可以使用自定义的模式来对齐任何东西。
+
+- [CopyIssue](https://github.com/hanton/CopyIssue-Xcode-Plugin) 使复制 Xcode issuse 描述更简单。
+
+  ![img](https://github.com/hanton/CopyIssue-Xcode-Plugin/raw/master/screenshots/ScreenShot.png?raw=true)
+
+  ![img](https://github.com/hanton/CopyIssue-Xcode-Plugin/raw/master/screenshots/Step2Alternate.png?raw=true)
+
 - [**Xcode Colors**](https://github.com/robbiehanson/XcodeColors)：为应用调试输出添加有颜色的代码，从而简化调试，可与CocoaLumberjack一同使用。
 
   ![img](http://www.cocoachina.com/cms/uploads/allimg/140417/4196_140417165641_1.jpg)
@@ -56,10 +78,6 @@ iOS essential tools to skyrocket your development. one command to install.
 - **XCode颜色显示插件[ColorSense](https://github.com/omz/ColorSense-for-Xcode)**
 
   代码里的那些冷冰冰的颜色数值，到底时什么颜色？如果你经常遇到这个问题，每每不得不运行下模拟器去看看，那么这个插件绝对不容错过。更彪悍的是你甚至可以点击显示的颜色面板，直接通过系统的ColorPicker来自动生成对应颜色代码，再也不用做各种颜色代码转换了！
-
-  [**Xcode Colors**](https://github.com/robbiehanson/XcodeColors)：为应用调试输出添加有颜色的代码，从而简化调试，可与CocoaLumberjack一同使用。
-
-  ![img](http://www.cocoachina.com/cms/uploads/allimg/140417/4196_140417165641_1.jpg)
 
 
 
@@ -70,14 +88,19 @@ iOS essential tools to skyrocket your development. one command to install.
 
 
 
+
 ## 诊断&调试
+
 有时候我们正在开发应用，我们想更好的了解到底发生了什么，修bug或者改善性能。
 
 - **[injectionforxcode](https://github.com/johnno1962/injectionforxcode)** 调试利器 
+- **Chisel**
 - [Pony Debugger](https://github.com/square/PonyDebugger) – 另一个你可以嵌入一个库到你调试版本中的工具，Pony Debugger实际上使用了Chrome的开发工具来查看设备上发出的网络请求，还有一个基本的Core Data浏览器。很难描述，请看我的[screencast on Pony Debugger](http://nsscreencast.com/episodes/54-pony-debugger)吧。
 - [Runscope](http://runscope.com/) ($) – Runscope是一个网络服务，可以捕捉请求，记录日志，给你关于你的API的有用数据。因为它是个HTTP通道API， 搭建简单，你只需要更换你的主机名就行了。
 - [SimPholders](http://simpholders.com/) – 快速简单的访问你的模拟器文件夹。根据iOS版本来浏览，然后是应用名，可以直接在Finder中打开文件夹。
 - [Spark Inspector](http://sparkinspector.com/) –  在调试模式运行你的应用时，可以用3D来展示调试你的视图层次。这个应用你真的要看到了才会真正明白它的价值。它能帮助你了解你的应用是由哪些视图组成的。它还带有一个通知中心监视器，你可以轻松看到发出了哪些NSNotification，谁在观察它们。另一个监控NSNotification的应用是[Reveal](http://revealapp.com/)。
+- [KPRunEverywhereXcodePlugin](https://github.com/kitschpatrol/KPRunEverywhereXcodePlugin) - 只需一次点击，就可以在多个 iOS 设备上构建，运行 App。
+- [MCLog](https://github.com/yuhua-chen/MCLog) - 用于控制台内容筛选的插件。
 
 
 
@@ -85,6 +108,7 @@ iOS essential tools to skyrocket your development. one command to install.
 ## HTTP/HTTPS抓包工具
 
 - Charles 网络调试神器，可以断点，修改数据，映射网络数据到本地文件，[从入门到精通](http://blog.devtang.com/2015/11/14/charles-introduction/)
+
 
 
 
@@ -113,14 +137,12 @@ iOS essential tools to skyrocket your development. one command to install.
 
 - **[Resizer](https://itunes.apple.com/us/app/resizer/id411277085?mt=12)**
   将 Retina 使用的图档（档名为 @2x 或 -hd 的图档）快速且完美地产生普通屏幕的图档尺寸。
-
 - **[LifeView](http://www.zambetti.com/projects/liveview/)**
   透过 Wifi 使用 iPhone 或是 iPad 直接预览电脑画面，方便检视图片在 Retina 屏幕中的效果
-
+- [RTImageAssets](https://github.com/rickytan/RTImageAssets) - 自动生成所需的全部 App 图标的插件。
 - [ImageAlpha](http://pngmini.com/) – 一个Mac应用，可以让你将24位带透明度的PNG图转成8位的带alpha通道的PNG图。通常8位PNG图不带有alpha通道，因此如果你的图片可以用8位来表示（比如一个单色的按钮）的话，你可以通过把25位PNG转成8位的来节省很多空间。
 - [ImageOptim](http://imageoptim.com/) – 另一个Mac应用，可以压缩PNG图片来节省空间。大多数PNG文件可以省掉几个百分点的大小，有时甚至30%或更多。图片更小意味着应用尺寸更小，运行时加载它们所使用的内存也更小。
 - [Prepo](http://wearemothership.com/work/prepo) – 一个Mac上的小应用，可以将图片快速变换为你需要的多个尺寸。只需要拖动一个大图标文件（比如，1024*1024）到Prepo，它就会生成512*512的iTunesArtwork，114*114的 Icon@2x.png，以及其他的尺寸和文件名
-
 - [pngcrush](http://pmt.sourceforge.net/pngcrush/) – 这个实用工具可以压缩解压缩PNG文件，当你想那些App Store上应用里的图片时很有用。只要打开iTunes，查看本地应用列表，对图标右键在Finder中打开。然后打开应用，你可以看到一堆PNG文件，但你没法查看它们。使用了pngcrush你可以将它们全部提取出来，然后用预览来查看。
 
 
@@ -151,13 +173,12 @@ iOS essential tools to skyrocket your development. one command to install.
 
 - [Deploymate](http://www.deploymateapp.com/) ($) – 还需要支持iOS4，但是你在用iOS6 SDK编译？当你使用了一些在你的部署目标上不存在的符号时，Deploymate会警告你的。
 - [Cupertino](https://github.com/nomad/cupertino) – Nomad CLI工具之一，Cupertino为你提供了命令行接口来管理苹果Provisioning Portal上的设备及profile。举例来说，只要键入ios devices:list就可以看到你帐号里的当前设备列表。可以用来自动化许多过程。
-
 - [Hockey App](http://hockeyapp.net/) ($) – 管理你ad-hoc版本发布的不错服务。测试人员可以得到一个链接，无线安装新的测试版本。它还提供了健壮的崩溃报告功能，你可以轻松应对你应用中的崩溃。
 - [TestFlight](http://testflightapp.com/) – 一个类似于Hockey App的免费应用。我们使用TestFlight已经取得了很大成功，轻松发布应用，从用户那收集反馈。我唯一希望他们能对这个服务进行收费。它还包括了分析和崩溃报告功能，但我们没有用到那些功能。
 - [iOS Simulator Cropper](http://www.curioustimes.de/iphonesimulatorcropper/index.html) – 一个拍模拟器屏幕快照的简单方法，可以选择带或者不带状态栏，带或者不带机器外壳等等。对于App Store或者普通市场上的一些截屏很有用。
 - [Status Magic](http://shinydevelopment.com/status-magic/) ($) – 拍出更好的app store截屏图。没有什么比App Store上带有低电量或者低信号标识的截屏图更让你的应用看起来糟糕的了。Status Magic让你充分定制你的状态栏，包括去除一些元素，把时间改成苹果喜欢的“9:41 AM”那样，等等。
-
 - [Reflector](http://www.airsquirrels.com/reflector/) ($) – 将你的iOS设备通过Air Play镜像到你的Mac上。很适合在你的电脑上做应用演示。
+- [RealmPlugin](https://realm.io/docs/objc/0.81.0/#xcode-plugin) 生成 Realm 模型的 Xcode 插件。
 
 
 
