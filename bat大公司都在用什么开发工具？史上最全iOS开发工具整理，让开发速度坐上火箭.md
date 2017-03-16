@@ -4,15 +4,11 @@ iOS essential tools to skyrocket your development. one command to install.
 
 
 
-
-
 ## 代码自动生成
 
-- 代码片段
-
+- [**Xcode Snippets**](https://github.com/mattt/Xcode-Snippets)：这视乎是最明显的一个，但却可以减少大量开发时间。创建起来像[drag-and-drop](http://nshipster.com/xcode-snippets/)那么简单，这里有很多优秀的示例（[XcodeCodeSnippets](https://github.com/brennanMKE/XcodeCodeSnippets)、[CodeSnippets](https://github.com/jaydee3/CodeSnippets) ）。
 - [**快速Add #import**](https://github.com/markohlebar/Peckham) 不用自己写import，当引用一个类时，就会自动import头文件
-
-- ### [Auto-Importer-for-Xcode](https://github.com/citrusbyte/Auto-Importer-for-Xcode)
+- [**Auto-Importer-for-Xcode**](https://github.com/citrusbyte/Auto-Importer-for-Xcode) 不用自己写import，当引用一个类时，就会自动import头文件
 
 
 
@@ -26,18 +22,27 @@ iOS essential tools to skyrocket your development. one command to install.
 - ​
 
 
+
+
 ## 源代码控制
 
 - [**Git**](http://git-scm.com/)：分布式版本控制系统和源码管理系统，其优点是：快和简单易用。对于新手来说，可在此查看[免费电子书籍](http://git-scm.com/book)。
+
 - [**GitHub**](https://github.com/)：声望日盛的资源分享之地。
+
 - [**BitBucket**](https://bitbucket.org/)：GitHub的替代选择。可以免费建立私有仓库
-- ​
+
+- [**Git Flow Extensions**](https://github.com/nvie/gitflow)：一个git扩展集合，以图形化客户端来管理资料库。
+
+  ​
 
 ## 包管理
 
 - [CocoaPods](http://cocoapods.org/) –  管理iOS项目的重要工具。允许你轻松快速地将第三方库集成到你的应用中。它是通过创建另一个静态库工程，然后自动链接到你的工程来实现的。有成千上万个可用的pod，可以轻松地为你的项目增加那些不属于你（或者私有）的第三方库支持。我在我的每个项目里都用了CocoaPods。
 - [**HomeBrew**](http://brew.sh/)：OS X上非常出色的包管理工具
 - [**Alcatraz**](https://github.com/supermarin/Alcatraz)：开源的Xcode 5包管理器，可以让你发现和安装插件、模板以及配色方案，无需手动复制文件。现已支持Xcode 5。
+
+
 
 
 ## XCode
@@ -52,12 +57,15 @@ iOS essential tools to skyrocket your development. one command to install.
 
   代码里的那些冷冰冰的颜色数值，到底时什么颜色？如果你经常遇到这个问题，每每不得不运行下模拟器去看看，那么这个插件绝对不容错过。更彪悍的是你甚至可以点击显示的颜色面板，直接通过系统的ColorPicker来自动生成对应颜色代码，再也不用做各种颜色代码转换了！
 
+  [**Xcode Colors**](https://github.com/robbiehanson/XcodeColors)：为应用调试输出添加有颜色的代码，从而简化调试，可与CocoaLumberjack一同使用。
+
+  ![img](http://www.cocoachina.com/cms/uploads/allimg/140417/4196_140417165641_1.jpg)
+
 
 
 
 ## 命令行
 
-- [**Git Flow Extensions**](https://github.com/nvie/gitflow)：一个git扩展集合，以图形化客户端来管理资料库。
 - [**Nomad**](http://nomad-cli.com/)：优秀的iOS开发命令行工具集。具体功能可在其官方网站查看。
 
 
@@ -70,12 +78,33 @@ iOS essential tools to skyrocket your development. one command to install.
 - [Runscope](http://runscope.com/) ($) – Runscope是一个网络服务，可以捕捉请求，记录日志，给你关于你的API的有用数据。因为它是个HTTP通道API， 搭建简单，你只需要更换你的主机名就行了。
 - [SimPholders](http://simpholders.com/) – 快速简单的访问你的模拟器文件夹。根据iOS版本来浏览，然后是应用名，可以直接在Finder中打开文件夹。
 - [Spark Inspector](http://sparkinspector.com/) –  在调试模式运行你的应用时，可以用3D来展示调试你的视图层次。这个应用你真的要看到了才会真正明白它的价值。它能帮助你了解你的应用是由哪些视图组成的。它还带有一个通知中心监视器，你可以轻松看到发出了哪些NSNotification，谁在观察它们。另一个监控NSNotification的应用是[Reveal](http://revealapp.com/)。
-- ​
+
 
 
 
 ## HTTP/HTTPS抓包工具
+
 - Charles 网络调试神器，可以断点，修改数据，映射网络数据到本地文件，[从入门到精通](http://blog.devtang.com/2015/11/14/charles-introduction/)
+
+
+
+## 持续集成
+
+- [**xctool**](https://github.com/facebook/xctool)：xctool是来自Facebook的优秀开发工具，可以让你通过命令行创建和测试你的应用。除了比苹果提供的xcodebuild工具好用外，它的输出可以注入CI软件，因此更具灵活性。
+
+![img](http://www.cocoachina.com/cms/uploads/allimg/140417/4196_140417170932_1.gif)
+
+- [**Jenkins**](http://jenkins-ci.org/)：一个开源的持续集成服务器，配置简单。通过Xcode插件，你可以用Jenkins来测试、签名、创建以及分发应用。Jenkins非常人性化，ANSI彩色输出，这些都是额外的功能。
+- [**Xcode bots**](https://developer.apple.com/news/?id=6132013a)：该工具自动化了创建、分析以及测试应用的过程。使用了Mac OS X server和苹果的指令。
+
+​      为了推广Bots，苹果于2013年10月24日向开发者免费发布了[Mac OS X server副本](http://www.macrumors.com/2013/10/24/apple-giving-ios-devs-free-copies-of-os-x-server-to-promote-xcodes-continuous-integration/)。
+
+
+
+## 分发
+
+- [**TestFlight**](https://www.testflightapp.com/)：知名的iOS应用测试平台。2014年3月，苹果收购了该平台的开发商Burstly。TestFlight表示将会停止开发 Android 产品，并且目前的 beta 测试 SDK 将不支持新顾客注册。目前的顾客仍然可以使用 TestFlight。
+- [**Nomad Shenzhen + FTP**](https://github.com/nomad/shenzhen)：让创建应用，把应用上传至FTP服务器变得异常简单的CLI工具。
 
 
 
@@ -106,7 +135,9 @@ iOS essential tools to skyrocket your development. one command to install.
 
 
 
+
 ## 数据库
+
 - [Mogenerator](http://rentzsch.github.com/mogenerator/) –  一个超有用的工具，在你的Core Data模型中生成NSManagedObjects智能子类。有些人使用Xcode完成这功能，通过手动子类化或者创建分类来为模型增加逻辑。Mogenerator作为预编译脚本运行来生成你可以使用的子类。它通过创建带有下划线的版本(_User)以及正常你可以修改的版本(User)来实现。
 
 - [Base](http://menial.co.uk/software/base/) ($) – 你肯定会需要查看你的Core Data sqlite数据库来检查发生了什么。你可以使用sqlite3命令行工具，但Base给了你一个方便查看的GUI浏览器。当你看到Core Data为你创建的数据库schema时你可不要吐哦。
@@ -115,7 +146,9 @@ iOS essential tools to skyrocket your development. one command to install.
 
 
 
+
 ## 部署
+
 - [Deploymate](http://www.deploymateapp.com/) ($) – 还需要支持iOS4，但是你在用iOS6 SDK编译？当你使用了一些在你的部署目标上不存在的符号时，Deploymate会警告你的。
 - [Cupertino](https://github.com/nomad/cupertino) – Nomad CLI工具之一，Cupertino为你提供了命令行接口来管理苹果Provisioning Portal上的设备及profile。举例来说，只要键入ios devices:list就可以看到你帐号里的当前设备列表。可以用来自动化许多过程。
 
@@ -125,6 +158,7 @@ iOS essential tools to skyrocket your development. one command to install.
 - [Status Magic](http://shinydevelopment.com/status-magic/) ($) – 拍出更好的app store截屏图。没有什么比App Store上带有低电量或者低信号标识的截屏图更让你的应用看起来糟糕的了。Status Magic让你充分定制你的状态栏，包括去除一些元素，把时间改成苹果喜欢的“9:41 AM”那样，等等。
 
 - [Reflector](http://www.airsquirrels.com/reflector/) ($) – 将你的iOS设备通过Air Play镜像到你的Mac上。很适合在你的电脑上做应用演示。
+
 
 
 
@@ -140,18 +174,15 @@ iOS essential tools to skyrocket your development. one command to install.
 
   ​
 
-## 代码编辑器
+## 编辑器
 
 - [AppCode](http://jetbrains.com/objc) – Jetbrains（ReSharper for .NET的制作公司）的一款功能全面的IDE。强大的重构工具和功能可以帮助你更快地写代码。快速识别死代码，当你使用了相关代码时自动插入#import语句，轻松选取变量、方法以及类。我唯一希望的是它能成为Xcode的一个插件。
 - [Vim](http://www.vim.org/) – 等一下， vim？真的么？确实是真的，有人在vim里做所有的Objective-C开发。我并不是其中之一，但我喜欢用vim开发ruby。就因为如此，我很喜欢…
 - [Xvim](https://github.com/JugglerShu/XVim) –  一个Xcode插件，能使用vim中的keybindings。
+- [**Textmate**](http://macromates.com/)：Mac OS X上一个可高度自定义的编辑器，尤其在我想做出一个快速改变但又不想等待Xcode加载的时候。该工具目前已经开源（[https://github.com/textmate/textmate](https://github.com/textmate/textmate)）。
 
 
-
-
-## 其它编辑器
-
-- sublime 
+- [**Sublime Text**](http://www.sublimetext.com/) ：Mac OS X上另一款非常受欢迎的轻量级，可高度自定义的编辑器。 
 
 
 
@@ -162,9 +193,12 @@ iOS essential tools to skyrocket your development. one command to install.
 可惜的是Mou已不再支持macOS Sierra(10.12.x)已上的系统，所以在这里推荐其他几款支持Markdown语法的软件。
 
 - [Mou](http://25.io/mou/download/Mou.zip)
-
 - [MacDown](http://macdown.uranusjr.com/)
-
 - [Typora](https://typora.io/)
-
 - [MaHua在线编辑器](http://mahua.jser.me/)
+
+
+
+## 其它
+
+- [**Transmit **](http://panic.com/transmit/)($)：一个Mac OS X 上FTP客户端，有着非常漂亮的用户界面和有用的功能。
