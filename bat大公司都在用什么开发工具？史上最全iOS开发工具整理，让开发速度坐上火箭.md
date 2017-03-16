@@ -37,12 +37,16 @@ iOS essential tools to skyrocket your development. one command to install.
 
 - [CocoaPods](http://cocoapods.org/) –  管理iOS项目的重要工具。允许你轻松快速地将第三方库集成到你的应用中。它是通过创建另一个静态库工程，然后自动链接到你的工程来实现的。有成千上万个可用的pod，可以轻松地为你的项目增加那些不属于你（或者私有）的第三方库支持。我在我的每个项目里都用了CocoaPods。
 - [**HomeBrew**](http://brew.sh/)：OS X上非常出色的包管理工具
-- ​
+- [**Alcatraz**](https://github.com/supermarin/Alcatraz)：开源的Xcode 5包管理器，可以让你发现和安装插件、模板以及配色方案，无需手动复制文件。现已支持Xcode 5。
 
 
 ## XCode
 
 - [**查看项目的’TODO’,’FIXME’等**](https://github.com/trawor/XToDo)
+
+- [**Xcode Colors**](https://github.com/robbiehanson/XcodeColors)：为应用调试输出添加有颜色的代码，从而简化调试，可与CocoaLumberjack一同使用。
+
+  ![img](http://www.cocoachina.com/cms/uploads/allimg/140417/4196_140417165641_1.jpg)
 
 - **XCode颜色显示插件[ColorSense](https://github.com/omz/ColorSense-for-Xcode)**
 
@@ -53,9 +57,8 @@ iOS essential tools to skyrocket your development. one command to install.
 
 ## 命令行
 
-
-
-
+- [**Git Flow Extensions**](https://github.com/nvie/gitflow)：一个git扩展集合，以图形化客户端来管理资料库。
+- [**Nomad**](http://nomad-cli.com/)：优秀的iOS开发命令行工具集。具体功能可在其官方网站查看。
 
 
 
