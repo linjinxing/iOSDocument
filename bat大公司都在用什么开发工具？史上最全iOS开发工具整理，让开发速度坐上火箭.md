@@ -49,6 +49,15 @@ iOS essential tools to skyrocket your development. one command to install.
 
 
 
+## 测试
+
+- [CrashMonkey](https://github.com/mokemokechicken/CrashMonkey)  iOS 平台的 Monkey 测试工具。
+- [Remote](https://github.com/johnno1962/Remote)  在 Xcode 内部控制你的 iPhone 来做端到端的测试。
+- [ios-driver](http://ios-driver.github.io/ios-driver/index.html)  使用 Selenium / WebDriver 测试任何 iOS 原生，混合或者移动 web 应用。
+- [ios-snapshot-test-case](https://github.com/facebook/ios-snapshot-test-case) 使用屏幕快照的 iOS 单元测试。
+
+
+
 ## XCode
 
 - [**查看项目的’TODO’,’FIXME’等**](https://github.com/trawor/XToDo)
@@ -64,6 +73,16 @@ iOS essential tools to skyrocket your development. one command to install.
 - [BBUDebuggerTuckAway](https://github.com/neonichu/BBUDebuggerTuckAway)   当你开始编辑的时候帮你隐藏调试器栏的 Xcode 插件。
 
 - [XAlign](https://github.com/qfish/XAlign)  一个 Xcode 代码自动对齐插件，它可以使用自定义的模式来对齐任何东西。
+
+- [CleanHeaders-Xcode](https://github.com/insanoid/CleanHeaders-Xcode) 类似 iSort 的头文件排序和重复消除插件，让你的头文件看起来更加有序。
+
+- [AutoHighlightSymbol](https://github.com/chiahsien/AutoHighlightSymbol) 高亮被选中的符号对应的所有实例。
+
+  ![im](https://github.com/chiahsien/AutoHighlightSymbol/raw/master/screenshot.png)
+
+- [JumpMarks](https://github.com/merrickp/JumpMarks) 使用有序的书签为你的代码做导航。
+
+  ![img](https://github.com/merrickp/JumpMarks/raw/assets/toggle.gif)
 
 - [CopyIssue](https://github.com/hanton/CopyIssue-Xcode-Plugin) 使复制 Xcode issuse 描述更简单。
 
@@ -217,6 +236,7 @@ iOS essential tools to skyrocket your development. one command to install.
 - [MacDown](http://macdown.uranusjr.com/)
 - [Typora](https://typora.io/)
 - [MaHua在线编辑器](http://mahua.jser.me/)
+
 
 
 
