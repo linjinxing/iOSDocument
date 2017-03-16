@@ -242,4 +242,5 @@ iOS essential tools to skyrocket your development. one command to install.
 
 ## 其它
 
-- [**Transmit **](http://panic.com/transmit/)($)：一个Mac OS X 上FTP客户端，有着非常漂亮的用户界面和有用的功能。
+- [**Transmit **](http://panic.com/transmit/)：一个Mac OS X 上FTP客户端，有着非常漂亮的用户界面和有用的功能。
+
