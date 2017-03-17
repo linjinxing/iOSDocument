@@ -7,11 +7,26 @@ iOS essential tools to skyrocket your development. one command to install.
 ## 代码自动生成
 
 - [**Xcode Snippets**](https://github.com/mattt/Xcode-Snippets)：这视乎是最明显的一个，但却可以减少大量开发时间。创建起来像[drag-and-drop](http://nshipster.com/xcode-snippets/)那么简单，这里有很多优秀的示例（[XcodeCodeSnippets](https://github.com/brennanMKE/XcodeCodeSnippets)、[CodeSnippets](https://github.com/jaydee3/CodeSnippets) ）。
+
+- [XcodeBoost](https://github.com/fortinmike/XcodeBoost) 是一款可以让开发者轻而易举地检查和修改Objective-C代码的插件。XcodeBoost能够自动进行一些繁琐的操作，比如方法的定义与声明、添加基于命令行的代码处理（剪切/复制/粘贴/重复/删除行）、持续高亮等。
+
 - [**快速Add #import**](https://github.com/markohlebar/Peckham) 不用自己写import，当引用一个类时，就会自动import头文件
+
 - [**Auto-Importer-for-Xcode**](https://github.com/citrusbyte/Auto-Importer-for-Xcode) 不用自己写import，当引用一个类时，就会自动import头文件
+
 - [SCXcodeSwitchExpander](https://github.com/stefanceriu/SCXcodeSwitchExpander) 是一个可以帮你展开 switch 语句的插件，还会自动帮你插入 case 语句。
+
 - [KSImageNamed-Xcode](https://github.com/ksuther/KSImageNamed-Xcode) 提供了图片名称自动补全功能的插件。
+
+  [![Screenshot](https://camo.githubusercontent.com/c354bf04524df86daeabe7a6d2b9926fac790f85/68747470733a2f2f7261772e6769746875622e636f6d2f6b7375746865722f4b53496d6167654e616d65642d58636f64652f6d61737465722f73637265656e73686f742e676966)](https://camo.githubusercontent.com/c354bf04524df86daeabe7a6d2b9926fac790f85/68747470733a2f2f7261772e6769746875622e636f6d2f6b7375746865722f4b53496d6167654e616d65642d58636f64652f6d61737465722f73637265656e73686f742e676966)
+
 - [Lin](https://github.com/questbeat/Lin)  这个插件提供了 NSLocalizedString 的自动补全插件。
+
+- [Shark](https://github.com/kaandedeoglu/Shark) 用于将 .xcassets 文件夹转换成一个类型安全枚举的 Swift 脚本。
+
+- [SwiftGen](https://github.com/AliSoftware/SwiftGen) 一个生成 Swift 代码工具的集合（生成资源的枚举，storyboard，本地化字符串和 UIColor）。
+
+- ​
 
 
 
@@ -38,13 +53,25 @@ iOS essential tools to skyrocket your development. one command to install.
 
 - [**Git Flow Extensions**](https://github.com/nvie/gitflow)：一个git扩展集合，以图形化客户端来管理资料库。
 
+- [GitDiff](https://github.com/johnno1962/GitDiff)  图形用户界面使git对开发者不显得那么吓人了。而像Tower和SourceTree这样的程序是伟大的，我常常想知道我目前工作的文件中有什么改变，在Xcode的代码编辑器。这个GitDiff插件，使这一切成为可能，多么伟大。
+
+  它是Xcode的代码编辑器的一个微妙的补强，加上了足够的可见信息以了解上次提交以来发生了什么变化。
+
+  ![img](https://camo.githubusercontent.com/c28d1cf0d3b079c807f79cb6deb5785aff28e9be/687474703a2f2f696e6a656374696f6e666f7278636f64652e6a6f686e686f6c6473776f7274682e636f6d2f67697464696666322e706e67)
+
+- ​
+
   ​
 
 ## 包管理
 
 - [CocoaPods](http://cocoapods.org/) –  管理iOS项目的重要工具。允许你轻松快速地将第三方库集成到你的应用中。它是通过创建另一个静态库工程，然后自动链接到你的工程来实现的。有成千上万个可用的pod，可以轻松地为你的项目增加那些不属于你（或者私有）的第三方库支持。我在我的每个项目里都用了CocoaPods。
+
 - [**HomeBrew**](http://brew.sh/)：OS X上非常出色的包管理工具
+
 - [**Alcatraz**](https://github.com/supermarin/Alcatraz)：开源的Xcode 5包管理器，可以让你发现和安装插件、模板以及配色方案，无需手动复制文件。现已支持Xcode 5。
+
+- ​
 
 
 
@@ -62,6 +89,8 @@ iOS essential tools to skyrocket your development. one command to install.
 
 - [**查看项目的’TODO’,’FIXME’等**](https://github.com/trawor/XToDo)
 
+- [Code Pilot](http://codepilot.cc/) 说到Xcode那些炙手可热的插件，很多开发者首先都会想到[Code Pilot](https://github.com/macoscope/CodePilot)。Code Pilot是Xcode 5的一款扩充插件，能够帮助开发者无需鼠标操作，即可在项目中快速方便地查找文件、方法和符号。
+
 - [Backlight-for-XCode](https://github.com/limejelly/Backlight-for-XCode) 高亮当前编辑的行。
 
 - [XCActionBar](https://github.com/pdcgomes/XCActionBar) - Xcode 的 Alfred。
@@ -74,7 +103,17 @@ iOS essential tools to skyrocket your development. one command to install.
 
 - [XAlign](https://github.com/qfish/XAlign)  一个 Xcode 代码自动对齐插件，它可以使用自定义的模式来对齐任何东西。
 
+- [Provisioning](https://github.com/chockenberry/Provisioning) 一个查看器插件，用于预览 .mobileprovision 文件。
+
+- [Blade](https://github.com/jondot/blade)  生成 Xcode 需要的 icon 图标的命令行工具
+
 - [CleanHeaders-Xcode](https://github.com/insanoid/CleanHeaders-Xcode) 类似 iSort 的头文件排序和重复消除插件，让你的头文件看起来更加有序。
+
+- [ClangFormat-Xcode](https://github.com/travisjeffery/ClangFormat-Xcode) ClangFormat-Xcode是一款格式化代码工具，能够让开发者使用Clang将代码格式化为LLVM、Google、Chromium、Mozilla或WebKit等格式，其开发者为来自37signals的Travis Jeffery。通过ClangFormat，开发者不仅可以实现对代码的自动或批量格式化，还可以进行自定义配置。
+
+  ![img](http://segmentfault.com/img/bVce8U)
+
+  相关链接：ClangFormat-Xcode的[mobilehub主页](http://mobilehub.io/products/clangformat-xcode)
 
 - [AutoHighlightSymbol](https://github.com/chiahsien/AutoHighlightSymbol) 高亮被选中的符号对应的所有实例。
 
@@ -144,10 +183,18 @@ iOS essential tools to skyrocket your development. one command to install.
 
 
 
-## 分发
+## 部署
 
-- [**TestFlight**](https://www.testflightapp.com/)：知名的iOS应用测试平台。2014年3月，苹果收购了该平台的开发商Burstly。TestFlight表示将会停止开发 Android 产品，并且目前的 beta 测试 SDK 将不支持新顾客注册。目前的顾客仍然可以使用 TestFlight。
+- [Deploymate](http://www.deploymateapp.com/) ($) – 还需要支持iOS4，但是你在用iOS6 SDK编译？当你使用了一些在你的部署目标上不存在的符号时，Deploymate会警告你的。
 - [**Nomad Shenzhen + FTP**](https://github.com/nomad/shenzhen)：让创建应用，把应用上传至FTP服务器变得异常简单的CLI工具。
+- [Cupertino](https://github.com/nomad/cupertino) – Nomad CLI工具之一，Cupertino为你提供了命令行接口来管理苹果Provisioning Portal上的设备及profile。举例来说，只要键入ios devices:list就可以看到你帐号里的当前设备列表。可以用来自动化许多过程。
+- [Hockey App](http://hockeyapp.net/) ($) – 管理你ad-hoc版本发布的不错服务。测试人员可以得到一个链接，无线安装新的测试版本。它还提供了健壮的崩溃报告功能，你可以轻松应对你应用中的崩溃。
+- [TestFlight](http://testflightapp.com/) – 一个类似于Hockey App的免费应用。我们使用TestFlight已经取得了很大成功，轻松发布应用，从用户那收集反馈。我唯一希望他们能对这个服务进行收费。它还包括了分析和崩溃报告功能，但我们没有用到那些功能。
+- [iOS Simulator Cropper](http://www.curioustimes.de/iphonesimulatorcropper/index.html) – 一个拍模拟器屏幕快照的简单方法，可以选择带或者不带状态栏，带或者不带机器外壳等等。对于App Store或者普通市场上的一些截屏很有用。
+- [Status Magic](http://shinydevelopment.com/status-magic/) ($) – 拍出更好的app store截屏图。没有什么比App Store上带有低电量或者低信号标识的截屏图更让你的应用看起来糟糕的了。Status Magic让你充分定制你的状态栏，包括去除一些元素，把时间改成苹果喜欢的“9:41 AM”那样，等等。
+- [Reflector](http://www.airsquirrels.com/reflector/) ($) – 将你的iOS设备通过Air Play镜像到你的Mac上。很适合在你的电脑上做应用演示。
+- [RealmPlugin](https://realm.io/docs/objc/0.81.0/#xcode-plugin) 生成 Realm 模型的 Xcode 插件。
+
 
 
 
@@ -163,6 +210,9 @@ iOS essential tools to skyrocket your development. one command to install.
 - [ImageOptim](http://imageoptim.com/) – 另一个Mac应用，可以压缩PNG图片来节省空间。大多数PNG文件可以省掉几个百分点的大小，有时甚至30%或更多。图片更小意味着应用尺寸更小，运行时加载它们所使用的内存也更小。
 - [Prepo](http://wearemothership.com/work/prepo) – 一个Mac上的小应用，可以将图片快速变换为你需要的多个尺寸。只需要拖动一个大图标文件（比如，1024*1024）到Prepo，它就会生成512*512的iTunesArtwork，114*114的 Icon@2x.png，以及其他的尺寸和文件名
 - [pngcrush](http://pmt.sourceforge.net/pngcrush/) – 这个实用工具可以压缩解压缩PNG文件，当你想那些App Store上应用里的图片时很有用。只要打开iTunes，查看本地应用列表，对图标右键在Finder中打开。然后打开应用，你可以看到一堆PNG文件，但你没法查看它们。使用了pngcrush你可以将它们全部提取出来，然后用预览来查看。
+- [Retini](https://github.com/terwanerik/Retini)  一个超级简单的 Retina（2x，3x）图片转换器。
+- [Pixel Winch](http://www.ricciadams.com/projects/pixel-winch) UI没标注肿么办，用直接Pixel Winch自动精确测量 UI 切图之间的距离吧，相比系统手工量方便多了
+- ​
 
 
 
@@ -184,20 +234,6 @@ iOS essential tools to skyrocket your development. one command to install.
 - [Base](http://menial.co.uk/software/base/) ($) – 你肯定会需要查看你的Core Data sqlite数据库来检查发生了什么。你可以使用sqlite3命令行工具，但Base给了你一个方便查看的GUI浏览器。当你看到Core Data为你创建的数据库schema时你可不要吐哦。
 
 - [Core Data Editor](http://christian-kienle.de/CoreDataEditor) ($) -对于一些更高级的数据分析、发掘以及修改，你可以使用Core Data Editor。这个应用了解Core Data，因此你是在直接和实体打交道，而不是数据库行。
-
-
-
-
-## 部署
-
-- [Deploymate](http://www.deploymateapp.com/) ($) – 还需要支持iOS4，但是你在用iOS6 SDK编译？当你使用了一些在你的部署目标上不存在的符号时，Deploymate会警告你的。
-- [Cupertino](https://github.com/nomad/cupertino) – Nomad CLI工具之一，Cupertino为你提供了命令行接口来管理苹果Provisioning Portal上的设备及profile。举例来说，只要键入ios devices:list就可以看到你帐号里的当前设备列表。可以用来自动化许多过程。
-- [Hockey App](http://hockeyapp.net/) ($) – 管理你ad-hoc版本发布的不错服务。测试人员可以得到一个链接，无线安装新的测试版本。它还提供了健壮的崩溃报告功能，你可以轻松应对你应用中的崩溃。
-- [TestFlight](http://testflightapp.com/) – 一个类似于Hockey App的免费应用。我们使用TestFlight已经取得了很大成功，轻松发布应用，从用户那收集反馈。我唯一希望他们能对这个服务进行收费。它还包括了分析和崩溃报告功能，但我们没有用到那些功能。
-- [iOS Simulator Cropper](http://www.curioustimes.de/iphonesimulatorcropper/index.html) – 一个拍模拟器屏幕快照的简单方法，可以选择带或者不带状态栏，带或者不带机器外壳等等。对于App Store或者普通市场上的一些截屏很有用。
-- [Status Magic](http://shinydevelopment.com/status-magic/) ($) – 拍出更好的app store截屏图。没有什么比App Store上带有低电量或者低信号标识的截屏图更让你的应用看起来糟糕的了。Status Magic让你充分定制你的状态栏，包括去除一些元素，把时间改成苹果喜欢的“9:41 AM”那样，等等。
-- [Reflector](http://www.airsquirrels.com/reflector/) ($) – 将你的iOS设备通过Air Play镜像到你的Mac上。很适合在你的电脑上做应用演示。
-- [RealmPlugin](https://realm.io/docs/objc/0.81.0/#xcode-plugin) 生成 Realm 模型的 Xcode 插件。
 
 
 
