@@ -12,6 +12,10 @@ iOS essential tools to skyrocket your development. one command to install.
 
 - [**快速Add #import**](https://github.com/markohlebar/Peckham) 不用自己写import，当引用一个类时，就会自动import头文件
 
+- ## OMColorSense
+
+  一个简洁的可视化颜色插件。在你编辑颜色的RGB值的时候，会在代码上方出现一个小的色块，显示对应的颜色。点击色块还会弹出一个颜色编辑器，在编辑器中得到的色值会自动填入colorWithRed:green:blue:alpha:方法中，贴心！
+
 - [**Auto-Importer-for-Xcode**](https://github.com/citrusbyte/Auto-Importer-for-Xcode) 不用自己写import，当引用一个类时，就会自动import头文件
 
 - [SCXcodeSwitchExpander](https://github.com/stefanceriu/SCXcodeSwitchExpander) 是一个可以帮你展开 switch 语句的插件，还会自动帮你插入 case 语句。
@@ -26,7 +30,11 @@ iOS essential tools to skyrocket your development. one command to install.
 
 - [SwiftGen](https://github.com/AliSoftware/SwiftGen) 一个生成 Swift 代码工具的集合（生成资源的枚举，storyboard，本地化字符串和 UIColor）。
 
-- ​
+- **QuickLocalization**
+
+  你是否已经厌倦了反复写NSLocalizedString？如果是，那么QuickLocalization插件可以助你一臂之力。当你在编辑字符串的时候，只需要按下option+shift+d，就可以将@“Any String”转换成NSLocalizedString(@"Any String", nil)。而且还可以通过修改配置来定义要出现在comment字段中的内容。我已经离不开它了！
+
+  ![img](http://mmbiz.qpic.cn/mmbiz/CN8VYJLAIV2e1PZOy16ib4f6DgwSzlXibpx0tSn4pQCZLD7Ajl2J0rLpBXicaNERia77K2GHBXMGAFek4iaSAAFb1aA/0?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1)
 
 
 
@@ -59,6 +67,10 @@ iOS essential tools to skyrocket your development. one command to install.
 
   ![img](https://camo.githubusercontent.com/c28d1cf0d3b079c807f79cb6deb5785aff28e9be/687474703a2f2f696e6a656374696f6e666f7278636f64652e6a6f686e686f6c6473776f7274682e636f6d2f67697464696666322e706e67)
 
+- **ShowInGithub**
+
+  代码审查是Netguru大神们生活方式的一部分。尽管大部分bug会在此阶段被检查出来，但我们仍然会在使用他人代码的时候发现问题。这个时候，ShowInGithub大显身手的时候到了，只需要按下ctrl+C或ctrl+G，就可以立即打开commit或file页面，同时支持Github和BitBucket，非常棒！
+
 - ​
 
   ​
@@ -88,11 +100,23 @@ iOS essential tools to skyrocket your development. one command to install.
 ## XCode
 
 - [**查看项目的’TODO’,’FIXME’等**](https://github.com/trawor/XToDo)
+
 - [Code Pilot](http://codepilot.cc/) 说到Xcode那些炙手可热的插件，很多开发者首先都会想到[Code Pilot](https://github.com/macoscope/CodePilot)。Code Pilot是Xcode 5的一款扩充插件，能够帮助开发者无需鼠标操作，即可在项目中快速方便地查找文件、方法和符号。
+
 - [Backlight-for-XCode](https://github.com/limejelly/Backlight-for-XCode) 高亮当前编辑的行。
+
 - [XCActionBar](https://github.com/pdcgomes/XCActionBar) - Xcode 的 Alfred。
+
 - [AdjustFontSize](https://github.com/zats/AdjustFontSize-Xcode-Plugin) 使用 ⌘ + / ⌘ - 快捷键调整字体大小。
+
+- Derived Data Exterminator
+
+  当你在编译项目的时候，是否曾为Xcode爆出的某个奇怪的错误绞尽脑汁？我想答案是肯定的，并且我们都明白，其中的一种错误的解决办法就是—删除DerivedData!尽管我们有很多种方法解决这个问题，但Derived Data Exterminator无疑是最便捷的那种。在我们将它集成到Xcode后，就可以一键清理Derived Data。
+
+  ![img](http://mmbiz.qpic.cn/mmbiz/CN8VYJLAIV2e1PZOy16ib4f6DgwSzlXibpnym0ibRN6IbzZb9PIneJVMuM8jgxSicicl2AcMHUQT3pJiapnibSYzCAz8g/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+
 - [SCXcodeMiniMap](https://github.com/stefanceriu/SCXcodeMiniMap) - SCXcodeMiniMap 为 Xcode 添加了代码地图功能
+
 - [BBUDebuggerTuckAway](https://github.com/neonichu/BBUDebuggerTuckAway)   当你开始编辑的时候帮你隐藏调试器栏的 Xcode 插件。
 
 
@@ -202,13 +226,25 @@ iOS essential tools to skyrocket your development. one command to install.
 ## 部署
 
 - [Deploymate](http://www.deploymateapp.com/) ($) – 还需要支持iOS4，但是你在用iOS6 SDK编译？当你使用了一些在你的部署目标上不存在的符号时，Deploymate会警告你的。
+
 - [**Nomad Shenzhen + FTP**](https://github.com/nomad/shenzhen)：让创建应用，把应用上传至FTP服务器变得异常简单的CLI工具。
+
 - [Cupertino](https://github.com/nomad/cupertino) – Nomad CLI工具之一，Cupertino为你提供了命令行接口来管理苹果Provisioning Portal上的设备及profile。举例来说，只要键入ios devices:list就可以看到你帐号里的当前设备列表。可以用来自动化许多过程。
+
 - [Hockey App](http://hockeyapp.net/) ($) – 管理你ad-hoc版本发布的不错服务。测试人员可以得到一个链接，无线安装新的测试版本。它还提供了健壮的崩溃报告功能，你可以轻松应对你应用中的崩溃。
+
 - [TestFlight](http://testflightapp.com/) – 一个类似于Hockey App的免费应用。我们使用TestFlight已经取得了很大成功，轻松发布应用，从用户那收集反馈。我唯一希望他们能对这个服务进行收费。它还包括了分析和崩溃报告功能，但我们没有用到那些功能。
+
 - [iOS Simulator Cropper](http://www.curioustimes.de/iphonesimulatorcropper/index.html) – 一个拍模拟器屏幕快照的简单方法，可以选择带或者不带状态栏，带或者不带机器外壳等等。对于App Store或者普通市场上的一些截屏很有用。
+
 - [Status Magic](http://shinydevelopment.com/status-magic/) ($) – 拍出更好的app store截屏图。没有什么比App Store上带有低电量或者低信号标识的截屏图更让你的应用看起来糟糕的了。Status Magic让你充分定制你的状态栏，包括去除一些元素，把时间改成苹果喜欢的“9:41 AM”那样，等等。
+
+- **Status Barred**
+
+  根据iTunes Connect Guidelines的要求，屏幕截图不应当包含状态栏，这个工具可以帮助我们平滑地去除状态栏，同时支持iPhone和iPad的屏幕截图。这个小应用虽然只做一件事，但是做得很好。
+
 - [Reflector](http://www.airsquirrels.com/reflector/) ($) – 将你的iOS设备通过Air Play镜像到你的Mac上。很适合在你的电脑上做应用演示。
+
 - [RealmPlugin](https://realm.io/docs/objc/0.81.0/#xcode-plugin) 生成 Realm 模型的 Xcode 插件。
 
 
