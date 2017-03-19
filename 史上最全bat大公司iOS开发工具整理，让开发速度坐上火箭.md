@@ -88,20 +88,21 @@ iOS essential tools to skyrocket your development. one command to install.
 ## XCode
 
 - [**查看项目的’TODO’,’FIXME’等**](https://github.com/trawor/XToDo)
-
 - [Code Pilot](http://codepilot.cc/) 说到Xcode那些炙手可热的插件，很多开发者首先都会想到[Code Pilot](https://github.com/macoscope/CodePilot)。Code Pilot是Xcode 5的一款扩充插件，能够帮助开发者无需鼠标操作，即可在项目中快速方便地查找文件、方法和符号。
-
 - [Backlight-for-XCode](https://github.com/limejelly/Backlight-for-XCode) 高亮当前编辑的行。
-
 - [XCActionBar](https://github.com/pdcgomes/XCActionBar) - Xcode 的 Alfred。
-
 - [AdjustFontSize](https://github.com/zats/AdjustFontSize-Xcode-Plugin) 使用 ⌘ + / ⌘ - 快捷键调整字体大小。
-
 - [SCXcodeMiniMap](https://github.com/stefanceriu/SCXcodeMiniMap) - SCXcodeMiniMap 为 Xcode 添加了代码地图功能
-
 - [BBUDebuggerTuckAway](https://github.com/neonichu/BBUDebuggerTuckAway)   当你开始编辑的时候帮你隐藏调试器栏的 Xcode 插件。
 
-- [XAlign](https://github.com/qfish/XAlign)  一个 Xcode 代码自动对齐插件，它可以使用自定义的模式来对齐任何东西。
+
+​       ![img](http://segmentfault.com/img/bVce8Y)
+
+- [XAlign](https://github.com/qfish/XAlign)  [XAlign](https://github.com/qfish/XAlign)
+
+  XAlign是一款专门用于代码整理的Xcode插件，其作者为来自Geek Zoo Studio的开发者QFish。XAlign能够对开发者的代码非常快速地进行对齐优化，有“=”、宏定义、属性三种对齐模式。当然，如果默认的对齐风格不是自己喜欢的，开发者还可以自定义或提出issues。
+
+  ![img](http://segmentfault.com/img/bVce8V)
 
 - [Provisioning](https://github.com/chockenberry/Provisioning) 一个查看器插件，用于预览 .mobileprovision 文件。
 
@@ -152,13 +153,28 @@ iOS essential tools to skyrocket your development. one command to install.
 有时候我们正在开发应用，我们想更好的了解到底发生了什么，修bug或者改善性能。
 
 - **[injectionforxcode](https://github.com/johnno1962/injectionforxcode)** 调试利器 
-- **Chisel**
+
+- **Chisel**  使用LLDB可以显著减少开发者的调试时间。Facebook开发了一套用于LLDB的命令十分有效，特别是当出现了一些难以复现的问题的时候。虽然熟悉它需要一定的时间，但是绝对值得。
+
 - [Pony Debugger](https://github.com/square/PonyDebugger) – 另一个你可以嵌入一个库到你调试版本中的工具，Pony Debugger实际上使用了Chrome的开发工具来查看设备上发出的网络请求，还有一个基本的Core Data浏览器。很难描述，请看我的[screencast on Pony Debugger](http://nsscreencast.com/episodes/54-pony-debugger)吧。
+
+- [Reveal](http://revealapp.com/) 是界面调试工具
+
+- [Spark Inspector](http://sparkinspector.com/) 是界面调试工具
+
 - [Runscope](http://runscope.com/) ($) – Runscope是一个网络服务，可以捕捉请求，记录日志，给你关于你的API的有用数据。因为它是个HTTP通道API， 搭建简单，你只需要更换你的主机名就行了。
+
 - [SimPholders](http://simpholders.com/) – 快速简单的访问你的模拟器文件夹。根据iOS版本来浏览，然后是应用名，可以直接在Finder中打开文件夹。
+
 - [Spark Inspector](http://sparkinspector.com/) –  在调试模式运行你的应用时，可以用3D来展示调试你的视图层次。这个应用你真的要看到了才会真正明白它的价值。它能帮助你了解你的应用是由哪些视图组成的。它还带有一个通知中心监视器，你可以轻松看到发出了哪些NSNotification，谁在观察它们。另一个监控NSNotification的应用是[Reveal](http://revealapp.com/)。
+
 - [KPRunEverywhereXcodePlugin](https://github.com/kitschpatrol/KPRunEverywhereXcodePlugin) - 只需一次点击，就可以在多个 iOS 设备上构建，运行 App。
+
 - [MCLog](https://github.com/yuhua-chen/MCLog) - 用于控制台内容筛选的插件。
+
+- **Network Link Conditioner**
+
+  这是一个来自苹果官方的工具，它可以模拟任何网络环境，如3G，Edge等等，也可以重新定义当前的网络环境，如网络延迟、带宽或丢包率。Network Link Conditioner也可以应用于真机，但是使用的时候需要小心，使用这个工具不仅仅对使用者起作用，还会影响整个网络。
 
 
 
@@ -223,6 +239,12 @@ iOS essential tools to skyrocket your development. one command to install.
 - [appledoc](http://gentlebytes.com/appledoc/) – 想自动生成苹果官方那样的文档吗？不用再找了。自动在你的项目中定义超链接符号，使用特殊格式的代码注释来提取内容。生成正式文档和HTML网页。
 
 - [Dash](http://kapeli.com/dash/) ($) – 一个必须拥有的API文档查看器和代码片段管理器。它很好用，允许你下载并搜索各种语言和框架的API文档，而且速度很快。最快访问文档的方式。为了使搜索更快，我[把Dash和Alfred集成起来使用](http://joeworkman.net/blog/post-30037947509)。
+
+- [Dash-Plugin-for-Xcode](https://github.com/omz/Dash-Plugin-for-Xcode)
+
+  Dash Xcode plugin是Bogdan Popescu开发的一款集成了Dash文档查看器应用的Xcode插件，允许开发者在使用Option-Click或作用相同的快捷键操作查看当前文本的相关文档时，用Dash代替Xcode的文档查看器。
+
+  ![img](http://segmentfault.com/img/bVce80)
 
 
 
