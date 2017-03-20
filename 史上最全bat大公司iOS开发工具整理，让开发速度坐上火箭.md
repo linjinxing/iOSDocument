@@ -32,6 +32,24 @@ iOS essential tools to skyrocket your development. one command to install.
 
 - [R.swift](https://github.com/mac-cain13/R.swift) 在 Swift 项目中，强类型的自动补全资源名称的工具，包括图片，单元格和 segue 的工具
 
+- [Eject](https://github.com/Raizlabs/Eject/)  从xib生成相应的swift代码
+
+- [JSONExport](http://bit.ly/1Fm4PHE) json数据转换成对象
+
+  Screenshot shows JSONExport used for a snippet from Twitter timeline JSON and converting it to Swift-CoreData. [![alt tag](https://cloud.githubusercontent.com/assets/5157350/5228493/72693010-7713-11e4-9e42-625a8590424a.png)](https://cloud.githubusercontent.com/assets/5157350/5228493/72693010-7713-11e4-9e42-625a8590424a.png)
+
+- [json2swift](http://bit.ly/2fuECkf) A macOS command line tool that generates excellent Swift data models based on JSON data. [![Overview](https://github.com/ijoshsmith/json2swift/raw/master/images/json2swift.jpg)](https://github.com/ijoshsmith/json2swift/blob/master/images/json2swift.jpg)
+
+  ​
+
+- ### [*Sourcery*](https://github.com/krzysztofzablocki/Sourcery)
+
+  Swift是一门美妙的语言，产生了许多很棒的iOS app。可惜的是，它具有非常局限的运行时间并且没有元编程功能。
+
+  这导致我们的项目包含了大量的重复代码模式，它们也可以被认为是相同的代码，只有些许不同。
+
+  Sourcery能够让开发者不再一遍又一遍的重复做一些事情。它让我们在能够使用元编程的同时还能够保持高强度的键入，防止bug并且利用编辑器。
+
 - [PAW](http://luckymarmot.com/paw)
 
   确保REST API工作正常，并且准确知道如何配置请求可以帮你减少大量错误，而不需要重新编译和通过繁琐的UI进行测试。PAW并不仅仅方便你管理API端点，它还可以缓存结果和适应环境的变化。此外，你也可以通过PAW保存会话和引用，或者和团队成员进行分享。
@@ -122,6 +140,10 @@ iOS essential tools to skyrocket your development. one command to install.
 
   假如你正在寻找一款可替代的工具，你也可以看看[Folder Simulator](http://nimbleworks.co.uk/blog/simulator-folders/)。
 
+- [simMagnifier](http://bit.ly/2izLtw9) 
+
+  A mac app that gives you easy access to the latest run apps on your iOS Simulators. simMagnifier lets you explore Core Data content in the Simulator's Documents folders and will try to detect your Core Data configuration automatically. Once loaded you can add new instances, delete or edit current ones, filter entities, explore relationships, and execute fetch requests. It also gives you quick access to important Simulator folders, like Documents, Application Support, App Bundle, and more, and you can check data stored in NSUserDefaults.
+
 - [Spark Inspector](http://sparkinspector.com/) –  在调试模式运行你的应用时，可以用3D来展示调试你的视图层次。这个应用你真的要看到了才会真正明白它的价值。它能帮助你了解你的应用是由哪些视图组成的。它还带有一个通知中心监视器，你可以轻松看到发出了哪些NSNotification，谁在观察它们。另一个监控NSNotification的应用是[Reveal](http://revealapp.com/)。
 
 - [KPRunEverywhereXcodePlugin](https://github.com/kitschpatrol/KPRunEverywhereXcodePlugin) - 只需一次点击，就可以在多个 iOS 设备上构建，运行 App。
@@ -187,9 +209,18 @@ iOS essential tools to skyrocket your development. one command to install.
 ## 测试
 
 - [CrashMonkey](https://github.com/mokemokechicken/CrashMonkey)  iOS 平台的 Monkey 测试工具。
+
 - [Remote](https://github.com/johnno1962/Remote)  在 Xcode 内部控制你的 iPhone 来做端到端的测试。
+
 - [ios-driver](http://ios-driver.github.io/ios-driver/index.html)  使用 Selenium / WebDriver 测试任何 iOS 原生，混合或者移动 web 应用。
+
 - [ios-snapshot-test-case](https://github.com/facebook/ios-snapshot-test-case) 使用屏幕快照的 iOS 单元测试。
+
+- [pxctest](http://bit.ly/2gxsq1D) Execute tests in parallel on multiple iOS Simulators.
+
+  [![Build Status](https://camo.githubusercontent.com/4a272db77ea28c12824225014b7fc7070d3ca6e0/68747470733a2f2f7472617669732d63692e6f72672f706c752f707863746573742e7376673f6272616e63683d6d6173746572)](https://travis-ci.org/plu/pxctest)
+
+  [![screencast](https://github.com/plu/pxctest/raw/master/static/screencast.gif?raw=true)](https://github.com/plu/pxctest/blob/master/static/screencast.gif?raw=true)
 
 
 
@@ -336,6 +367,14 @@ iOS essential tools to skyrocket your development. one command to install.
 
 - [RealmPlugin](https://realm.io/docs/objc/0.81.0/#xcode-plugin) 生成 Realm 模型的 Xcode 插件。
 
+- [Expo Sketch](https://sketch.expo.io/)
+
+  在 JS 开发方面我们有 Codepen 和 JSFiddle 进行代码的测试与分享，我们可以直接贴我们的代码然后直接分享一个地址给其他人就可以进行即时的代码分享与演示。
+  不过 React Native 方面一直没有一个这样的工具，所以 Expo Sketch 就是这样的背景下产生的。
+  主要的功能点如下：
+
+  可以在 web 或者在手机上即时测试你的代码，手机预览直接扫描页面生成的二维码即可。
+
 
 
 
@@ -464,6 +503,10 @@ iOS essential tools to skyrocket your development. one command to install.
 ## 其它
 
 - [**Transmit **](http://panic.com/transmit/)：一个Mac OS X 上FTP客户端，有着非常漂亮的用户界面和有用的功能。
+
+- Review Command AppStore应用程序评分跟踪软件 
+
+  ![[Mac] AppStore应用程序评分跟踪软件 ： Review Command](http://77g4f4.com1.z0.glb.clouddn.com/wp-content/uploads/001-518.jpg)
 
 - Automator
 
