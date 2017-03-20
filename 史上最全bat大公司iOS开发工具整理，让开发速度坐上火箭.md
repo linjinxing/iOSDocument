@@ -44,6 +44,12 @@ iOS essential tools to skyrocket your development. one command to install.
 
   如果需要将大量OC代码转换成Swift代码，这时候你可以选择iSwift，这款工具操作简单，虽然尚有不足但是已经能够极大的减少你的工作量了
 
+- [PaintCode](http://www.paintcodeapp.com/)
+
+  ![img](http://segmentfault.com/img/bVccxj)
+
+  用代码进行绘图会耗费大量的开发时间，而PaintCode是一个专为设计师准备的简单矢量图形绘图应用程序。PaintCode可帮你节省大量时间和工作量，并且没有编程经验的设计师也能立即画出美丽的控件、图标或其他UI界面元素并直接生成适用于iOS或者OS X的Objective-C代码。
+
 - Sip
 
   这是我最喜欢的工具之一了，它的功能很简单就是取色，功能虽然简单但是它已经做到了极致。至少我是这么感觉的。它可以通过快捷键从快速调出取色器，并且在取色的同时生成代码（例如直接生成色值:#ff0000，又例如iOS OC代码:
@@ -125,6 +131,8 @@ iOS essential tools to skyrocket your development. one command to install.
 - **Network Link Conditioner**
 
   这是一个来自苹果官方的工具，它可以模拟任何网络环境，如3G，Edge等等，也可以重新定义当前的网络环境，如网络延迟、带宽或丢包率。Network Link Conditioner也可以应用于真机，但是使用的时候需要小心，使用这个工具不仅仅对使用者起作用，还会影响整个网络。
+
+  ​
 
 
 
@@ -275,9 +283,6 @@ iOS essential tools to skyrocket your development. one command to install.
   功能强大/外观漂亮/多标签支持/专注的全屏模式/…
   (试一下 option + space, Command + Enter)
 
-  ​
-
-
 
 
 - ​
@@ -335,7 +340,7 @@ iOS essential tools to skyrocket your development. one command to install.
 
 
 
-## 图片处理
+## 图形图像
 
 - **[Resizer](https://itunes.apple.com/us/app/resizer/id411277085?mt=12)**
   将 Retina 使用的图档（档名为 @2x 或 -hd 的图档）快速且完美地产生普通屏幕的图档尺寸。
@@ -348,8 +353,19 @@ iOS essential tools to skyrocket your development. one command to install.
 - [pngcrush](http://pmt.sourceforge.net/pngcrush/) – 这个实用工具可以压缩解压缩PNG文件，当你想那些App Store上应用里的图片时很有用。只要打开iTunes，查看本地应用列表，对图标右键在Finder中打开。然后打开应用，你可以看到一堆PNG文件，但你没法查看它们。使用了pngcrush你可以将它们全部提取出来，然后用预览来查看。
 - [Retini](https://github.com/terwanerik/Retini)  一个超级简单的 Retina（2x，3x）图片转换器。
 - [Pixel Winch](http://www.ricciadams.com/projects/pixel-winch) UI没标注肿么办，用直接Pixel Winch自动精确测量 UI 切图之间的距离吧，相比系统手工量方便多了
-- ​
+- [Acorn](http://www.flyingmeat.com/acorn/) ($) – Photoshop的有力竞争者，比ps便宜多了。我发现自己最近用Photoshop越来越少了。该项目在积极的开发维护中。
+- [Sketch](http://www.bohemiancoding.com/sketch/) ($) – 一个基于矢量的画图工具，随着屏幕尺寸和像素密度的改变，这个工具越来越有用。只需要设计一次，然后可以根据需要进行缩放。同时还带有一个很强大的导出系统。对于Sketch示例项目，请看[Sketchmine](http://sketchmine.co/)。我的 [screencast on Sketch](http://nsscreencast.com/episodes/079-sketch)上有视频演示。
 
+
+- [Fontastic Icons for iOS](https://github.com/AlexDenisov/FontasticIcons) – 一个使用图标字体的开源类集合，例如iOS应用中的[Font Awesome](http://fortawesome.github.io/Font-Awesome/)。可以在任何像素维度上快速简便的得到一个图标。由于字体在本质上可以轻松缩放，用这种办法可以很方便的在不同平台使用的图标，而无需根据不同尺寸导出不同的版本。
+
+- [Glypish Link](http://glyphish.com/)
+
+  [![glphy](http://coolshell.cn//wp-content/uploads/2011/08/glphy.jpeg)](http://coolshell.cn//wp-content/uploads/2011/08/glphy.jpeg)
+
+  你可能能从上面的这些图标中看到Flipboard 和 Twitter 在iOS上的应用使用了其中的一些图标。是的，这些个小图标对你的开发很有帮助。作者强烈推荐你花$25去购买 [Glyphish](http://glyphish.com/) 的Pro版。当然啦，你都能花$99/year开发iOS的程序，你还怕花这区区的25刀？
+
+  ​
 
 
 
@@ -408,13 +424,10 @@ iOS essential tools to skyrocket your development. one command to install.
 
 - [Mocks](http://celestialteapot.com/mocks) ($) – 一个简单应用的快速创建iOS应用原型的工具。自带一些默认控件，你可以快速搭建原型。
 - [Briefs](http://giveabrief.com/) ($) – 一个很有用的应用，可以让你创建应用原型，将原型连起来形成交互。你可以部署到真实设备上，看看在你手上是什么样的感觉。
-- [Acorn](http://www.flyingmeat.com/acorn/) ($) – Photoshop的有力竞争者，比ps便宜多了。我发现自己最近用Photoshop越来越少了。该项目在积极的开发维护中。
-- [Sketch](http://www.bohemiancoding.com/sketch/) ($) – 一个基于矢量的画图工具，随着屏幕尺寸和像素密度的改变，这个工具越来越有用。只需要设计一次，然后可以根据需要进行缩放。同时还带有一个很强大的导出系统。对于Sketch示例项目，请看[Sketchmine](http://sketchmine.co/)。我的 [screencast on Sketch](http://nsscreencast.com/episodes/079-sketch)上有视频演示。
+- [UMLet](http://umlet.com/) 简单轻量级的UML设计工具，推荐
 
 
-- [Fontastic Icons for iOS](https://github.com/AlexDenisov/FontasticIcons) – 一个使用图标字体的开源类集合，例如iOS应用中的[Font Awesome](http://fortawesome.github.io/Font-Awesome/)。可以在任何像素维度上快速简便的得到一个图标。由于字体在本质上可以轻松缩放，用这种办法可以很方便的在不同平台使用的图标，而无需根据不同尺寸导出不同的版本。
 
-  ​
 
 ## 编辑器
 
@@ -425,6 +438,12 @@ iOS essential tools to skyrocket your development. one command to install.
 
 
 - [**Sublime Text**](http://www.sublimetext.com/) ：Mac OS X上另一款非常受欢迎的轻量级，可高度自定义的编辑器。 
+
+- [Linguan](http://www.peerassembly.com/linguan.html)
+
+  开发者都希望把自己的应用推广到世界各地，这时候本地化就变得非常重要。你可能需要让别人分担翻译的工作，但是Xcode一直不善于让别人牵涉其中。你不得不生成一个string文件，不过这种做法不利于归并内容，Linguan的出现正是为了解决这个问题。
+
+  Linguan可以简化Mac和iOS app本地化的过程，为Xcode项目中所有strings文件提供了智能化的编辑器。在你复制tokens或者丢失翻译的时候，Linguan可给你一定提醒。同时，你可以输出针对某种语言丢失的tokens或者通过邮件发送给你的译者，译者也可以使用Linguan完成翻译或者使用他们的文本编辑器。
 
 
 
