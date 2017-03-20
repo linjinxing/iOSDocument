@@ -12,7 +12,7 @@ iOS essential tools to skyrocket your development. one command to install.
 
 - [**快速Add #import**](https://github.com/markohlebar/Peckham) 不用自己写import，当引用一个类时，就会自动import头文件
 
-- ## OMColorSense
+- OMColorSense
 
   一个简洁的可视化颜色插件。在你编辑颜色的RGB值的时候，会在代码上方出现一个小的色块，显示对应的颜色。点击色块还会弹出一个颜色编辑器，在编辑器中得到的色值会自动填入colorWithRed:green:blue:alpha:方法中，贴心！
 
@@ -30,7 +30,30 @@ iOS essential tools to skyrocket your development. one command to install.
 
 - [SwiftGen](https://github.com/AliSoftware/SwiftGen) 一个生成 Swift 代码工具的集合（生成资源的枚举，storyboard，本地化字符串和 UIColor）。
 
-- **QuickLocalization**
+- [R.swift](https://github.com/mac-cain13/R.swift) 在 Swift 项目中，强类型的自动补全资源名称的工具，包括图片，单元格和 segue 的工具
+
+- iSwift
+
+  如果需要将大量OC代码转换成Swift代码，这时候你可以选择iSwift，这款工具操作简单，虽然尚有不足但是已经能够极大的减少你的工作量了
+
+- Sip
+
+  这是我最喜欢的工具之一了，它的功能很简单就是取色，功能虽然简单但是它已经做到了极致。至少我是这么感觉的。它可以通过快捷键从快速调出取色器，并且在取色的同时生成代码（例如直接生成色值:#ff0000，又例如iOS OC代码:
+
+  ```
+  [UIColor colorWithRed:0.95 green:0.89 blue:0.89 alpha:1.00]
+  ```
+
+  Swift代码:
+
+  ```
+  UIColor(red:0.96, green:0.34, blue:0.31, alpha:1.00)
+  ```
+  在粘贴板上，只需要在您要的用的地方粘贴就好了。方便之极。而且还是免费哟。爽到爆。
+
+  ![img](http://upload-images.jianshu.io/upload_images/1475667-aa89654bb6383b8f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- *QuickLocalization**
 
   你是否已经厌倦了反复写NSLocalizedString？如果是，那么QuickLocalization插件可以助你一臂之力。当你在编辑字符串的时候，只需要按下option+shift+d，就可以将@“Any String”转换成NSLocalizedString(@"Any String", nil)。而且还可以通过修改配置来定义要出现在comment字段中的内容。我已经离不开它了！
 
@@ -122,7 +145,7 @@ iOS essential tools to skyrocket your development. one command to install.
 
 ​       ![img](http://segmentfault.com/img/bVce8Y)
 
-- [XAlign](https://github.com/qfish/XAlign)  [XAlign](https://github.com/qfish/XAlign)
+- [XAlign](https://github.com/qfish/XAlign)
 
   XAlign是一款专门用于代码整理的Xcode插件，其作者为来自Geek Zoo Studio的开发者QFish。XAlign能够对开发者的代码非常快速地进行对齐优化，有“=”、宏定义、属性三种对齐模式。当然，如果默认的对齐风格不是自己喜欢的，开发者还可以自定义或提出issues。
 
@@ -162,12 +185,24 @@ iOS essential tools to skyrocket your development. one command to install.
 
   代码里的那些冷冰冰的颜色数值，到底时什么颜色？如果你经常遇到这个问题，每每不得不运行下模拟器去看看，那么这个插件绝对不容错过。更彪悍的是你甚至可以点击显示的颜色面板，直接通过系统的ColorPicker来自动生成对应颜色代码，再也不用做各种颜色代码转换了！
 
+- [RevealPlugin](https://github.com/shjborage/Reveal-Plugin-for-Xcode)将 Reveal App 和你的项目自动合为一体的 Xcode 插件
+
+- [RealmPlugin](https://realm.io/docs/objc/0.81.0/#xcode-plugin) 生成 Realm 模型的 Xcode 插件
+
 
 
 
 ## 命令行
 
 - [**Nomad**](http://nomad-cli.com/)：优秀的iOS开发命令行工具集。具体功能可在其官方网站查看。
+
+- **[iTerm2](https://www.iterm2.com/) – Mac上最好的终端模拟器**
+
+  ![img](http://mmbiz.qpic.cn/mmbiz_png/k0UVxv3BTLIkJcwfeniaXfbAK0ZWqE0RWEo9YPAl9psXqL40P35VSJ345JabxV9Pv4qBFDN4Op3u88jlhrqfwcA/0?tp=webp&wxfrom=5&wx_lazy=1)
+  功能强大/外观漂亮/多标签支持/专注的全屏模式/…
+  (试一下 option + space, Command + Enter)
+
+  ​
 
 
 
@@ -239,6 +274,8 @@ iOS essential tools to skyrocket your development. one command to install.
 
 - [Status Magic](http://shinydevelopment.com/status-magic/) ($) – 拍出更好的app store截屏图。没有什么比App Store上带有低电量或者低信号标识的截屏图更让你的应用看起来糟糕的了。Status Magic让你充分定制你的状态栏，包括去除一些元素，把时间改成苹果喜欢的“9:41 AM”那样，等等。
 
+- [deliver](https://github.com/fastlane/deliver) 部署截屏，app 元数据和 AppStore app 更新，这一切只需要一个命令就可以搞定
+
 - **Status Barred**
 
   根据iTunes Connect Guidelines的要求，屏幕截图不应当包含状态栏，这个工具可以帮助我们平滑地去除状态栏，同时支持iPhone和iPad的屏幕截图。这个小应用虽然只做一件事，但是做得很好。
@@ -293,6 +330,22 @@ iOS essential tools to skyrocket your development. one command to install.
 
 - [Core Data Editor](http://christian-kienle.de/CoreDataEditor) ($) -对于一些更高级的数据分析、发掘以及修改，你可以使用Core Data Editor。这个应用了解Core Data，因此你是在直接和实体打交道，而不是数据库行。
 
+- SQLite Professional
+
+  从名字上就能看出这是个SQLite工具，功能齐全。
+
+  ![img](http://upload-images.jianshu.io/upload_images/1475667-6b14ac111a0941e7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- SQLiteManager
+
+  这也是个Sqlite数据库管理工具。和SQLite Professional相比功能一样，就看你喜欢哪个了。
+
+  ![img](http://upload-images.jianshu.io/upload_images/1475667-e23b83eebd5c888a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+- Realm Browser
+
+  如果你使用的是Realm数据库的话，那么Realm Browser也是不可或缺的一款工具。直接看名字这个是Realm可视化界面。在这里说一句题外话:Realm数据库确实强大，方便。如果大家有兴趣可以去深入了解。
+
 
 
 
@@ -337,4 +390,12 @@ iOS essential tools to skyrocket your development. one command to install.
 ## 其它
 
 - [**Transmit **](http://panic.com/transmit/)：一个Mac OS X 上FTP客户端，有着非常漂亮的用户界面和有用的功能。
+
+- Automator
+
+  哈哈，这个机器人熟悉吧。系统自带的一个，这个小机器人用处可是非常大的，它能帮你完成各种琐碎，简单重复的工作。就例如写这篇文章需要的图片都是从应用程序中找出来的，打多少.icns格式的，里面有很多张，而且尺寸有大有小。于是就建立这么一个流程:输入icns格式图片->格式转换成.png->调整大小->输出。如下图
+
+  ![img](http://upload-images.jianshu.io/upload_images/1475667-70e4c9c9d1d01de2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+  这样就把事情完成了。
 
