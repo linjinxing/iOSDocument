@@ -32,6 +32,14 @@ iOS essential tools to skyrocket your development. one command to install.
 
 - [R.swift](https://github.com/mac-cain13/R.swift) 在 Swift 项目中，强类型的自动补全资源名称的工具，包括图片，单元格和 segue 的工具
 
+- [PAW](http://luckymarmot.com/paw)
+
+  确保REST API工作正常，并且准确知道如何配置请求可以帮你减少大量错误，而不需要重新编译和通过繁琐的UI进行测试。PAW并不仅仅方便你管理API端点，它还可以缓存结果和适应环境的变化。此外，你也可以通过PAW保存会话和引用，或者和团队成员进行分享。
+
+  让PAW与众不同的是它的代码生成工具，不仅仅是简单的cURL，甚至是NSURLConnection/AFNetworking Objective-C代码也可以。在iOS平台使用网络请求变得如此的简单。
+
+  ![img](http://segmentfault.com/img/bVccwU)
+
 - iSwift
 
   如果需要将大量OC代码转换成Swift代码，这时候你可以选择iSwift，这款工具操作简单，虽然尚有不足但是已经能够极大的减少你的工作量了
@@ -74,6 +82,52 @@ iOS essential tools to skyrocket your development. one command to install.
 
 
 
+## 诊断&调试
+
+有时候我们正在开发应用，我们想更好的了解到底发生了什么，修bug或者改善性能。
+
+- **[injectionforxcode](https://github.com/johnno1962/injectionforxcode)** 调试利器 
+
+- **Chisel**  使用LLDB可以显著减少开发者的调试时间。Facebook开发了一套用于LLDB的命令十分有效，特别是当出现了一些难以复现的问题的时候。虽然熟悉它需要一定的时间，但是绝对值得。
+
+- [Pony Debugger](https://github.com/square/PonyDebugger) – 另一个你可以嵌入一个库到你调试版本中的工具，Pony Debugger实际上使用了Chrome的开发工具来查看设备上发出的网络请求，还有一个基本的Core Data浏览器。很难描述，请看我的[screencast on Pony Debugger](http://nsscreencast.com/episodes/54-pony-debugger)吧。
+
+- [Reveal](http://revealapp.com/)
+
+  ![img](http://segmentfault.com/img/bVccwI)
+
+  为了查看UI发生的变化，我们过去常常会重新编译我们的应用，不过效率非常低。Reveal为开发者带来了类似Firebug和Web Inspector的强大工具。先进的2D和3D可视化技术可以让你查看app运行时的视图层次。可以让你快速Debug视图布局问题和渲染问题。
+
+  Reveal的强大之处并不仅限于检测你的app，[Peter Steinberger](http://petersteinberger.com/blog/2013/how-to-inspect-the-view-hierarchy-of-3rd-party-apps/)向我们展示了它是如何用在其他app中。
+
+  此外，Reveal还支持键盘；可通过视图层级帮你理解复杂的app；3D导航，可流畅旋转，缩放，选中以及高亮；Reveal可让你清楚哪个视图执行了哪个类；Reveal可在设备或者模拟器上运行，可以简单地发现，连接至iOS app。
+
+  参考阅读：[Reveal通过视图层次帮你理解复杂的app 并提供相关Debug功能](http://www.cocoachina.com/applenews/devnews/2013/0717/6621.html)
+
+- [Spark Inspector](http://sparkinspector.com/) 是界面调试工具
+
+- [Runscope](http://runscope.com/) ($) – Runscope是一个网络服务，可以捕捉请求，记录日志，给你关于你的API的有用数据。因为它是个HTTP通道API， 搭建简单，你只需要更换你的主机名就行了。
+
+- [SimPholders](http://simpholders.com/)
+
+  SimPholders可让你快速直接地访问iPhone模拟器应用的app文档。你可以通过SimPholders找到数据库文件、永久存储以及缓存，它是一个非常实用的app debug工具，同时还可以离线使用。
+
+  ![img](http://segmentfault.com/img/bVccwJ)
+
+  假如你正在寻找一款可替代的工具，你也可以看看[Folder Simulator](http://nimbleworks.co.uk/blog/simulator-folders/)。
+
+- [Spark Inspector](http://sparkinspector.com/) –  在调试模式运行你的应用时，可以用3D来展示调试你的视图层次。这个应用你真的要看到了才会真正明白它的价值。它能帮助你了解你的应用是由哪些视图组成的。它还带有一个通知中心监视器，你可以轻松看到发出了哪些NSNotification，谁在观察它们。另一个监控NSNotification的应用是[Reveal](http://revealapp.com/)。
+
+- [KPRunEverywhereXcodePlugin](https://github.com/kitschpatrol/KPRunEverywhereXcodePlugin) - 只需一次点击，就可以在多个 iOS 设备上构建，运行 App。
+
+- [MCLog](https://github.com/yuhua-chen/MCLog) - 用于控制台内容筛选的插件。
+
+- **Network Link Conditioner**
+
+  这是一个来自苹果官方的工具，它可以模拟任何网络环境，如3G，Edge等等，也可以重新定义当前的网络环境，如网络延迟、带宽或丢包率。Network Link Conditioner也可以应用于真机，但是使用的时候需要小心，使用这个工具不仅仅对使用者起作用，还会影响整个网络。
+
+
+
 ## 源代码控制
 
 - [**Git**](http://git-scm.com/)：分布式版本控制系统和源码管理系统，其优点是：快和简单易用。对于新手来说，可在此查看[免费电子书籍](http://git-scm.com/book)。
@@ -93,6 +147,17 @@ iOS essential tools to skyrocket your development. one command to install.
 - **ShowInGithub**
 
   代码审查是Netguru大神们生活方式的一部分。尽管大部分bug会在此阶段被检查出来，但我们仍然会在使用他人代码的时候发现问题。这个时候，ShowInGithub大显身手的时候到了，只需要按下ctrl+C或ctrl+G，就可以立即打开commit或file页面，同时支持Github和BitBucket，非常棒！
+
+- [gitignore.io](http://www.gitignore.io/)
+
+  我们知道一些文件不应该被提交到资源库，那你如何告诉git提交一个额外的.gitignore文件？我们当然不希望手动做这些细碎又麻烦的事情，运行以下命令：
+
+  ```
+  $ gi xcode,objective-c > .gitignore
+
+  ```
+
+  ![img](http://segmentfault.com/img/bVccwH)
 
 - ​
 
@@ -131,6 +196,14 @@ iOS essential tools to skyrocket your development. one command to install.
 - [XCActionBar](https://github.com/pdcgomes/XCActionBar) - Xcode 的 Alfred。
 
 - [AdjustFontSize](https://github.com/zats/AdjustFontSize-Xcode-Plugin) 使用 ⌘ + / ⌘ - 快捷键调整字体大小。
+
+- [CocoaDeveloper Quicklook Plugin](http://kfi-apps.com/plugins/ipaql/)
+
+  ![img](http://segmentfault.com/img/bVccxc)
+
+  该程序是一个Quicklook插件，用以预览app和配置信息。
+
+  你也可以使用iPhone Configuration Utility（[http://support.apple.com/downloads/](http://support.apple.com/downloads/)）来管理你的配置文件。
 
 - Derived Data Exterminator
 
@@ -207,33 +280,7 @@ iOS essential tools to skyrocket your development. one command to install.
 
 
 
-## 诊断&调试
-
-有时候我们正在开发应用，我们想更好的了解到底发生了什么，修bug或者改善性能。
-
-- **[injectionforxcode](https://github.com/johnno1962/injectionforxcode)** 调试利器 
-
-- **Chisel**  使用LLDB可以显著减少开发者的调试时间。Facebook开发了一套用于LLDB的命令十分有效，特别是当出现了一些难以复现的问题的时候。虽然熟悉它需要一定的时间，但是绝对值得。
-
-- [Pony Debugger](https://github.com/square/PonyDebugger) – 另一个你可以嵌入一个库到你调试版本中的工具，Pony Debugger实际上使用了Chrome的开发工具来查看设备上发出的网络请求，还有一个基本的Core Data浏览器。很难描述，请看我的[screencast on Pony Debugger](http://nsscreencast.com/episodes/54-pony-debugger)吧。
-
-- [Reveal](http://revealapp.com/) 是界面调试工具
-
-- [Spark Inspector](http://sparkinspector.com/) 是界面调试工具
-
-- [Runscope](http://runscope.com/) ($) – Runscope是一个网络服务，可以捕捉请求，记录日志，给你关于你的API的有用数据。因为它是个HTTP通道API， 搭建简单，你只需要更换你的主机名就行了。
-
-- [SimPholders](http://simpholders.com/) – 快速简单的访问你的模拟器文件夹。根据iOS版本来浏览，然后是应用名，可以直接在Finder中打开文件夹。
-
-- [Spark Inspector](http://sparkinspector.com/) –  在调试模式运行你的应用时，可以用3D来展示调试你的视图层次。这个应用你真的要看到了才会真正明白它的价值。它能帮助你了解你的应用是由哪些视图组成的。它还带有一个通知中心监视器，你可以轻松看到发出了哪些NSNotification，谁在观察它们。另一个监控NSNotification的应用是[Reveal](http://revealapp.com/)。
-
-- [KPRunEverywhereXcodePlugin](https://github.com/kitschpatrol/KPRunEverywhereXcodePlugin) - 只需一次点击，就可以在多个 iOS 设备上构建，运行 App。
-
-- [MCLog](https://github.com/yuhua-chen/MCLog) - 用于控制台内容筛选的插件。
-
-- **Network Link Conditioner**
-
-  这是一个来自苹果官方的工具，它可以模拟任何网络环境，如3G，Edge等等，也可以重新定义当前的网络环境，如网络延迟、带宽或丢包率。Network Link Conditioner也可以应用于真机，但是使用的时候需要小心，使用这个工具不仅仅对使用者起作用，还会影响整个网络。
+- ​
 
 
 
@@ -345,6 +392,14 @@ iOS essential tools to skyrocket your development. one command to install.
 - Realm Browser
 
   如果你使用的是Realm数据库的话，那么Realm Browser也是不可或缺的一款工具。直接看名字这个是Realm可视化界面。在这里说一句题外话:Realm数据库确实强大，方便。如果大家有兴趣可以去深入了解。
+
+- [Liya](https://itunes.apple.com/us/app/liya/id455484422?ls=1&mt=12)
+
+  ![img](http://segmentfault.com/img/bVccwK)
+
+  如果没有合适的工具，那么查看Core Data records会是一件非常痛苦的事情，更糟糕的是Xcode并没有为你提供一个恰当的方法。Liya可能并不是那么迷人，但它确实是一款非常轻量级的的工具，可以在不锁定正在使用的数据库的情况下很好地工作。简单使用SimPholder查找应用的文档文件夹，定位sqlite数据库文件，然后开始浏览。
+
+  Liya允许用户在单个可视化界面同时访问三个数据库系统。Liya可以以同样的方式访问MySQL、PostgreSQL以及SQLite3数据库。通过一个3-panel进行展示，一个展示选择的数据库，一个用以编辑table structure，另一个用以编辑表的内容。Liya可使用多个窗口同时在三种系统中访问数据库，每个窗口展示单个数据库的内容。Liya还可以通过拖放操作把数据从一个数据库移植另一个。你也可以从一个数据库输出数据进行备份。
 
 
 
