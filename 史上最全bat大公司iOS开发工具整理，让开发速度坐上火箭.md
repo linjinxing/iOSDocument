@@ -1,16 +1,20 @@
 史上最全bat大公司iOS开发工具整理，让开发速度坐上火箭
 
-iOS essential tools to skyrocket your development. one command to install.
+Essential tools to skyrocket your development for iOS. one command to install.
 
 
 
 ## 代码自动生成
 
-- [**Xcode Snippets**](https://github.com/mattt/Xcode-Snippets)：这视乎是最明显的一个，但却可以减少大量开发时间。创建起来像[drag-and-drop](http://nshipster.com/xcode-snippets/)那么简单，这里有很多优秀的示例（[XcodeCodeSnippets](https://github.com/brennanMKE/XcodeCodeSnippets)、[CodeSnippets](https://github.com/jaydee3/CodeSnippets) ）。
+- [Xcode Snippets](https://github.com/mattt/Xcode-Snippets)：这视乎是最明显的一个，但却可以减少大量开发时间。创建起来像[drag-and-drop](http://nshipster.com/xcode-snippets/)那么简单，这里有很多优秀的示例（[XcodeCodeSnippets](https://github.com/brennanMKE/XcodeCodeSnippets)、[CodeSnippets](https://github.com/jaydee3/CodeSnippets) 、[Xcode-Snippets / Objective-C](https://github.com/Xcode-Snippets/Objective-C)
+
+  ）。
 
 - [XcodeBoost](https://github.com/fortinmike/XcodeBoost) 是一款可以让开发者轻而易举地检查和修改Objective-C代码的插件。XcodeBoost能够自动进行一些繁琐的操作，比如方法的定义与声明、添加基于命令行的代码处理（剪切/复制/粘贴/重复/删除行）、持续高亮等。
 
-- [**快速Add #import**](https://github.com/markohlebar/Peckham) 不用自己写import，当引用一个类时，就会自动import头文件
+- [Peckham](https://github.com/markohlebar/Peckham) 不用自己写import，当引用一个类时，就会自动import头文件
+
+- [MLAutoReplace](https://github.com/molon/MLAutoReplace) Xcode plugin which help you write code faster
 
 - OMColorSense
 
@@ -42,7 +46,7 @@ iOS essential tools to skyrocket your development. one command to install.
 
   ​
 
-- ### [*Sourcery*](https://github.com/krzysztofzablocki/Sourcery)
+- [Sourcery](https://github.com/krzysztofzablocki/Sourcery)
 
   Swift是一门美妙的语言，产生了许多很棒的iOS app。可惜的是，它具有非常局限的运行时间并且没有元编程功能。
 
@@ -110,9 +114,9 @@ iOS essential tools to skyrocket your development. one command to install.
 
 有时候我们正在开发应用，我们想更好的了解到底发生了什么，修bug或者改善性能。
 
-- **[injectionforxcode](https://github.com/johnno1962/injectionforxcode)** 调试利器 
+- [injectionforxcode](https://github.com/johnno1962/injectionforxcode) 调试利器 
 
-- **Chisel**  使用LLDB可以显著减少开发者的调试时间。Facebook开发了一套用于LLDB的命令十分有效，特别是当出现了一些难以复现的问题的时候。虽然熟悉它需要一定的时间，但是绝对值得。
+- [chisel](https://github.com/facebook/chisel) 使用LLDB可以显著减少开发者的调试时间。Facebook开发了一套用于LLDB的命令十分有效，特别是当出现了一些难以复现的问题的时候。虽然熟悉它需要一定的时间，但是绝对值得。
 
 - [Pony Debugger](https://github.com/square/PonyDebugger) – 另一个你可以嵌入一个库到你调试版本中的工具，Pony Debugger实际上使用了Chrome的开发工具来查看设备上发出的网络请求，还有一个基本的Core Data浏览器。很难描述，请看我的[screencast on Pony Debugger](http://nsscreencast.com/episodes/54-pony-debugger)吧。
 
@@ -130,7 +134,7 @@ iOS essential tools to skyrocket your development. one command to install.
 
 - [Spark Inspector](http://sparkinspector.com/) 是界面调试工具
 
-- [Runscope](http://runscope.com/) ($) – Runscope是一个网络服务，可以捕捉请求，记录日志，给你关于你的API的有用数据。因为它是个HTTP通道API， 搭建简单，你只需要更换你的主机名就行了。
+- [Runscope](http://runscope.com/) 是一个网络服务，可以捕捉请求，记录日志，给你关于你的API的有用数据。因为它是个HTTP通道API， 搭建简单，你只需要更换你的主机名就行了。
 
 - [SimPholders](http://simpholders.com/)
 
@@ -343,19 +347,19 @@ iOS essential tools to skyrocket your development. one command to install.
 
 ## 部署
 
-- [Deploymate](http://www.deploymateapp.com/) ($) – 还需要支持iOS4，但是你在用iOS6 SDK编译？当你使用了一些在你的部署目标上不存在的符号时，Deploymate会警告你的。
+- [Deploymate](http://www.deploymateapp.com/)  – 还需要支持iOS4，但是你在用iOS6 SDK编译？当你使用了一些在你的部署目标上不存在的符号时，Deploymate会警告你的。
 
 - [**Nomad Shenzhen + FTP**](https://github.com/nomad/shenzhen)：让创建应用，把应用上传至FTP服务器变得异常简单的CLI工具。
 
 - [Cupertino](https://github.com/nomad/cupertino) – Nomad CLI工具之一，Cupertino为你提供了命令行接口来管理苹果Provisioning Portal上的设备及profile。举例来说，只要键入ios devices:list就可以看到你帐号里的当前设备列表。可以用来自动化许多过程。
 
-- [Hockey App](http://hockeyapp.net/) ($) – 管理你ad-hoc版本发布的不错服务。测试人员可以得到一个链接，无线安装新的测试版本。它还提供了健壮的崩溃报告功能，你可以轻松应对你应用中的崩溃。
+- [Hockey App](http://hockeyapp.net/)  – 管理你ad-hoc版本发布的不错服务。测试人员可以得到一个链接，无线安装新的测试版本。它还提供了健壮的崩溃报告功能，你可以轻松应对你应用中的崩溃。
 
 - [TestFlight](http://testflightapp.com/) – 一个类似于Hockey App的免费应用。我们使用TestFlight已经取得了很大成功，轻松发布应用，从用户那收集反馈。我唯一希望他们能对这个服务进行收费。它还包括了分析和崩溃报告功能，但我们没有用到那些功能。
 
 - [iOS Simulator Cropper](http://www.curioustimes.de/iphonesimulatorcropper/index.html) – 一个拍模拟器屏幕快照的简单方法，可以选择带或者不带状态栏，带或者不带机器外壳等等。对于App Store或者普通市场上的一些截屏很有用。
 
-- [Status Magic](http://shinydevelopment.com/status-magic/) ($) – 拍出更好的app store截屏图。没有什么比App Store上带有低电量或者低信号标识的截屏图更让你的应用看起来糟糕的了。Status Magic让你充分定制你的状态栏，包括去除一些元素，把时间改成苹果喜欢的“9:41 AM”那样，等等。
+- [Status Magic](http://shinydevelopment.com/status-magic/)  – 拍出更好的app store截屏图。没有什么比App Store上带有低电量或者低信号标识的截屏图更让你的应用看起来糟糕的了。Status Magic让你充分定制你的状态栏，包括去除一些元素，把时间改成苹果喜欢的“9:41 AM”那样，等等。
 
 - [deliver](https://github.com/fastlane/deliver) 部署截屏，app 元数据和 AppStore app 更新，这一切只需要一个命令就可以搞定
 
@@ -363,7 +367,7 @@ iOS essential tools to skyrocket your development. one command to install.
 
   根据iTunes Connect Guidelines的要求，屏幕截图不应当包含状态栏，这个工具可以帮助我们平滑地去除状态栏，同时支持iPhone和iPad的屏幕截图。这个小应用虽然只做一件事，但是做得很好。
 
-- [Reflector](http://www.airsquirrels.com/reflector/) ($) – 将你的iOS设备通过Air Play镜像到你的Mac上。很适合在你的电脑上做应用演示。
+- [Reflector](http://www.airsquirrels.com/reflector/)  – 将你的iOS设备通过Air Play镜像到你的Mac上。很适合在你的电脑上做应用演示。
 
 - [RealmPlugin](https://realm.io/docs/objc/0.81.0/#xcode-plugin) 生成 Realm 模型的 Xcode 插件。
 
@@ -392,8 +396,8 @@ iOS essential tools to skyrocket your development. one command to install.
 - [pngcrush](http://pmt.sourceforge.net/pngcrush/) – 这个实用工具可以压缩解压缩PNG文件，当你想那些App Store上应用里的图片时很有用。只要打开iTunes，查看本地应用列表，对图标右键在Finder中打开。然后打开应用，你可以看到一堆PNG文件，但你没法查看它们。使用了pngcrush你可以将它们全部提取出来，然后用预览来查看。
 - [Retini](https://github.com/terwanerik/Retini)  一个超级简单的 Retina（2x，3x）图片转换器。
 - [Pixel Winch](http://www.ricciadams.com/projects/pixel-winch) UI没标注肿么办，用直接Pixel Winch自动精确测量 UI 切图之间的距离吧，相比系统手工量方便多了
-- [Acorn](http://www.flyingmeat.com/acorn/) ($) – Photoshop的有力竞争者，比ps便宜多了。我发现自己最近用Photoshop越来越少了。该项目在积极的开发维护中。
-- [Sketch](http://www.bohemiancoding.com/sketch/) ($) – 一个基于矢量的画图工具，随着屏幕尺寸和像素密度的改变，这个工具越来越有用。只需要设计一次，然后可以根据需要进行缩放。同时还带有一个很强大的导出系统。对于Sketch示例项目，请看[Sketchmine](http://sketchmine.co/)。我的 [screencast on Sketch](http://nsscreencast.com/episodes/079-sketch)上有视频演示。
+- [Acorn](http://www.flyingmeat.com/acorn/)  – Photoshop的有力竞争者，比ps便宜多了。我发现自己最近用Photoshop越来越少了。该项目在积极的开发维护中。
+- [Sketch](http://www.bohemiancoding.com/sketch/) – 一个基于矢量的画图工具，随着屏幕尺寸和像素密度的改变，这个工具越来越有用。只需要设计一次，然后可以根据需要进行缩放。同时还带有一个很强大的导出系统。对于Sketch示例项目，请看[Sketchmine](http://sketchmine.co/)。我的 [screencast on Sketch](http://nsscreencast.com/episodes/079-sketch)上有视频演示。
 
 
 - [Fontastic Icons for iOS](https://github.com/AlexDenisov/FontasticIcons) – 一个使用图标字体的开源类集合，例如iOS应用中的[Font Awesome](http://fortawesome.github.io/Font-Awesome/)。可以在任何像素维度上快速简便的得到一个图标。由于字体在本质上可以轻松缩放，用这种办法可以很方便的在不同平台使用的图标，而无需根据不同尺寸导出不同的版本。
